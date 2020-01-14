@@ -1,0 +1,97 @@
+>>> x=1
+>>> print(x)
+1
+>>> type(x)
+<class 'int'>
+>>> str = 'Hi'
+>>> type(str)
+<class 'str'>
+>>> bool_v = 'T'
+>>> type(bool_v)
+<class 'str'>
+>>> bool_v='True'
+>>> type(bool_v)
+<class 'str'>
+>>> bool_v=True
+>>> type(bool_v)
+<class 'bool'>
+>>> arr = [1,2,3,4]
+>>> type(arr)
+<class 'list'>
+>>> var2 = 1.3
+>>> type(arr)
+<class 'list'>
+>>> type(var2)
+<class 'float'>
+>>> st1 = 'test'
+>>> st1 = st1 + 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> st1 = st1 + '1'
+>>> print(st1)
+test1
+>>> x = 1.0 + 2.0j
+>>> type(x)
+<class 'complex'>
+>>> print(x)
+(1+2j)
+>>> print(x.real)
+1.0
+>>> print(x.img)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'complex' object has no attribute 'img'
+>>> print(x.imag)
+2.0
+>>> print all
+  File "<stdin>", line 1
+    print all
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(all)?
+>>> print(all)
+<built-in function all>
+>>> print(str)
+Hi
+>>> print(arr)
+[1, 2, 3, 4]
+>>> 'Day' + str(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> 'Day ' + str(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> 'Day ' + str('1')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+
+>>> 'Day' + str(1)
+'Day1'
+>>> True and False
+False
+>>> a = True
+>>> b = False
+>>> a and b
+False
+>>> a and a
+True
+>>> a or b
+True
+>>> a not b
+  File "<stdin>", line 1
+    a not b
+          ^
+SyntaxError: invalid syntax
+>>> a is b
+False
+>>> not False
+True
+>>> a != b
+True
+TypeError: 'str' object is not callable
+
+
+
+
